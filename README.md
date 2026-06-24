@@ -33,6 +33,10 @@ The plugin does not upload files independently and does not communicate with any
 
 The game permits up to three screenshots. The upload button is hidden when that limit is reached.
 
+## Usage example
+
+![Selecting and adding an existing screenshot to a craft upload](assets/usage-example.gif)
+
 ## Installation
 
 1. Install BepInEx 5.x for the 64-bit Windows version of SimplePlanes 2.
