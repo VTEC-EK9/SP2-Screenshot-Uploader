@@ -41,14 +41,17 @@ The game permits up to three screenshots. The upload button is hidden when that 
 
 1. Install BepInEx 5.x for the 64-bit Windows version of SimplePlanes 2.
 2. Run the game once so BepInEx creates its folders.
-3. Copy `SP2ScreenshotUploader.dll` into:
+3. Download the precompiled [`SP2ScreenshotUploader.dll`](https://github.com/VTEC-EK9/SP2-Screenshot-Uploader/releases/latest/download/SP2ScreenshotUploader.dll) from the latest GitHub release.
+4. Copy `SP2ScreenshotUploader.dll` into:
 
 ```text
 SimplePlanes 2\BepInEx\plugins\
 ```
 
-4. Restart SimplePlanes 2.
-5. Check `BepInEx\LogOutput.log` if the button does not appear.
+5. Restart SimplePlanes 2.
+6. Check `BepInEx\LogOutput.log` if the button does not appear.
+
+You do not need Visual Studio or the .NET SDK for normal installation. Do not open the `.csproj` file unless you intend to build the plugin from source.
 
 ## Building from source
 
